@@ -4,8 +4,8 @@ import firstBlock.MyScanner;
 
 public class task3 {
     public static void main(String[] args) {
-        int R1;
-        int R2;
+        double R1;
+        double R2;
         do{
             System.out.println("Input R1 and R2 (must be R1>R2)");
              R1 = MyScanner.InputRad();
