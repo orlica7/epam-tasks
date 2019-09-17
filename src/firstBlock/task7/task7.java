@@ -5,8 +5,8 @@ import firstBlock.MyScanner;
 public class task7 {
     public static void main(String[] args) {
         System.out.println("Input 2 integer numbers (after every num tap Enter)");
-        double a = MyScanner.InputNum();
-        double b = MyScanner.InputNum();
+        double a = MyScanner.inputNum();
+        double b = MyScanner.inputNum();
         changeNums(a,b);
     }
 

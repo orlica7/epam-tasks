@@ -4,7 +4,7 @@ import firstBlock.MyScanner;
 
 public class task6 {
     public static void main(String[] args) {
-        int N = MyScanner.InputSevenDigNum();
+        int N = MyScanner.inputSevenDigNum();
         int R = reverse(N);
         System.out.println(R);
     }

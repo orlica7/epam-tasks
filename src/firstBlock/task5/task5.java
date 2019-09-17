@@ -4,7 +4,7 @@ import firstBlock.MyScanner;
 
 public class task5 {
     public static void main(String[] args) {
-        int N = MyScanner.InputSixDigNum();
+        int N = MyScanner.inputSixDigNum();
         int a = N % 10;
         int b= (N % 100 - a)/10;
         int c = (N % 1000 - b - a)/100;

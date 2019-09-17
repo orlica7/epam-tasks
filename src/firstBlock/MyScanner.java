@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MyScanner {
 
-    public static double InputNum(){
+    public static double inputNum(){
         double number;
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextDouble()) {
@@ -15,7 +15,7 @@ public class MyScanner {
         return number;
     }
 
-    public static double InputRad(){
+    public static double inputRad(){
         Scanner scanner = new Scanner(System.in);
         double number;
         do {
@@ -29,7 +29,7 @@ public class MyScanner {
         return number;
     }
 
-    public static double InputWeight(){
+    public static double inputWeight(){
         Scanner scanner = new Scanner(System.in);
         double number;
         do {
@@ -43,7 +43,7 @@ public class MyScanner {
         return number;
     }
 
-    public static int InputFourDigNum(){
+    public static int inputFourDigNum(){
         Scanner scanner = new Scanner(System.in);
         int number;
         do {
@@ -57,7 +57,7 @@ public class MyScanner {
         return number;
     }
 
-    public static int InputSixDigNum(){
+    public static int inputSixDigNum(){
         Scanner scanner = new Scanner(System.in);
         int number;
         do {
@@ -71,7 +71,7 @@ public class MyScanner {
         return number;
     }
 
-    public static int InputSevenDigNum(){
+    public static int inputSevenDigNum(){
         Scanner scanner = new Scanner(System.in);
         int number;
         do {
